@@ -46,7 +46,11 @@ typedef uint32_t TaskHandle_t ;
  *                      Functions Prototypes                                   *
  *******************************************************************************/
 
+<<<<<<< HEAD
 void OS_KernelLaunch(uint32_t quanta);
+=======
+void OS_KernelLaunch(void);
+>>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
 void OS_KernelInit(void);void OS_SchedulerLaunch(void);
 void checkPiriority(void);
 void getMaxPiriorityTask (void);

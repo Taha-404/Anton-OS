@@ -426,7 +426,11 @@
           </Files>
         </Group>
         <Group>
+<<<<<<< HEAD
           <GroupName>main</GroupName>
+=======
+          <GroupName>New Group</GroupName>
+>>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
           <Files>
             <File>
               <FileName>main.c</FileName>

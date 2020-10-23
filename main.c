@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "AntonOS_Kernel.h"
 #include"semaphore.h"
 
@@ -59,3 +60,8 @@ int main(void)
 }
 
 
+=======
+int main()
+{
+}
+>>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc

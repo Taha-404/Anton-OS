@@ -1,8 +1,14 @@
 Dependencies for Project 'RoundRobin_v1', Target 'TM4C123': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+<<<<<<< HEAD
 F (.\AntonOS_Kernel.c)(0x5F9360CA)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1230H6PM -D_RTE_-o .\objects\antonos_kernel.o --omf_browse .\objects\antonos_kernel.crf --depend .\objects\antonos_kernel.d)
 I (AntonOS_Kernel.h)(0x5F9360B0)
 I (AntonOS_KernelConfig.h)(0x5F9250D1)
+=======
+F (.\AntonOS_Kernel.c)(0x5F9364DF)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1230H6PM -D_RTE_-o .\objects\antonos_kernel.o --omf_browse .\objects\antonos_kernel.crf --depend .\objects\antonos_kernel.d)
+I (AntonOS_Kernel.h)(0x5F9364DD)
+I (AntonOS_KernelConfig.h)(0x5F93649E)
+>>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1230H6PM.h)(0x550FE22C)
 I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
@@ -12,6 +18,7 @@ I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_
 I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
 I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
+<<<<<<< HEAD
 F (.\AntonOS_Kernel.h)(0x5F9360B0)()
 F (.\AntonOS_Kernel.s)(0x5F9243C8)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "TM4C1230H6PM SETA 1" --pd "_RTE_ SETA 1"--list .\listings\antonos_kernel.lst --xref -o .\objects\antonos_kernel_1.o --depend .\objects\antonos_kernel_1.d)
 F (.\AntonOS_KernelConfig.h)(0x5F9250D1)()
@@ -19,6 +26,15 @@ F (.\semaphore.c)(0x5F935FA7)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=in
 I (semaphore.h)(0x5F935FB3)
 I (AntonOs_Kernel.h)(0x5F9360B0)
 I (AntonOS_KernelConfig.h)(0x5F9250D1)
+=======
+F (.\AntonOS_Kernel.h)(0x5F9364DD)()
+F (.\AntonOS_Kernel.s)(0x5F9243C8)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "TM4C1230H6PM SETA 1" --pd "_RTE_ SETA 1"--list .\listings\antonos_kernel.lst --xref -o .\objects\antonos_kernel_1.o --depend .\objects\antonos_kernel_1.d)
+F (.\AntonOS_KernelConfig.h)(0x5F93649E)()
+F (.\semaphore.c)(0x5F935FA7)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1230H6PM -D_RTE_-o .\objects\semaphore.o --omf_browse .\objects\semaphore.crf --depend .\objects\semaphore.d)
+I (semaphore.h)(0x5F935FB3)
+I (AntonOs_Kernel.h)(0x5F9364DD)
+I (AntonOS_KernelConfig.h)(0x5F93649E)
+>>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1230H6PM.h)(0x550FE22C)
 I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
@@ -31,8 +47,13 @@ I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C12
 F (.\semaphore.h)(0x5F935FB3)()
 F (.\queue.c)(0x5F935FAA)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1230H6PM -D_RTE_-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
 I (queue.h)(0x5F935F76)
+<<<<<<< HEAD
 I (AntonOs_Kernel.h)(0x5F9360B0)
 I (AntonOS_KernelConfig.h)(0x5F9250D1)
+=======
+I (AntonOs_Kernel.h)(0x5F9364DD)
+I (AntonOS_KernelConfig.h)(0x5F93649E)
+>>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1230H6PM.h)(0x550FE22C)
 I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
@@ -43,6 +64,7 @@ I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_
 I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
 F (.\queue.h)(0x5F935F76)()
+<<<<<<< HEAD
 F (.\main.c)(0x5F926A18)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1230H6PM -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (AntonOS_Kernel.h)(0x5F9360B0)
 I (AntonOS_KernelConfig.h)(0x5F9250D1)
@@ -56,6 +78,9 @@ I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_
 I (C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
 I (C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
 I (semaphore.h)(0x5F935FB3)
+=======
+F (.\main.c)(0x5F936841)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1230H6PM -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+>>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
 F (RTE\Device\TM4C1230H6PM\startup_TM4C123.s)(0x51B68FA6)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "TM4C1230H6PM SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
 F (RTE\Device\TM4C1230H6PM\system_TM4C123.c)(0x550A117A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_TM4C123-IC:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="531" -D_RTE_ -DTM4C1230H6PM -D_RTE_-o .\objects\system_tm4c123.o --omf_browse .\objects\system_tm4c123.crf --depend .\objects\system_tm4c123.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
