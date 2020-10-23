@@ -1,0 +1,12 @@
+.\objects\os_kernel.o: OS_Kernel.c
+.\objects\os_kernel.o: OS_Kernel.h
+.\objects\os_kernel.o: OS_KernelConfig.h
+.\objects\os_kernel.o: C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h
+.\objects\os_kernel.o: C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1230H6PM.h
+.\objects\os_kernel.o: C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\os_kernel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\os_kernel.o: C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\os_kernel.o: C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\os_kernel.o: C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\os_kernel.o: C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\os_kernel.o: C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h
