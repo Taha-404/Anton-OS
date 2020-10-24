@@ -21,7 +21,7 @@
 *
 * [Arguments]:	   handle of the semaphore
 *
-* [Retuen]:		   	 void
+* [Return]:		   	 void
 ***********************************************************************************/
 
 void SemaphoreCreateBinary( SemaphoreHandle_t * semaphore )
@@ -41,7 +41,7 @@ void SemaphoreCreateBinary( SemaphoreHandle_t * semaphore )
 *
 * [Arguments]:	   handle of the semaphore, blocking time of the task
 *
-* [Retuen]:		   	 void
+* [Return]:		   	 void
 ***********************************************************************************/
 
 void SemaphoreCreateCounting( SemaphoreHandle_t * semaphore , uint32_t MaxCount)
@@ -61,7 +61,7 @@ void SemaphoreCreateCounting( SemaphoreHandle_t * semaphore , uint32_t MaxCount)
 *
 * [Arguments]:	   handle of the semaphore, blocking time of the task
 *
-* [Retuen]:		   	 void
+* [Return]:		   	 void
 ***********************************************************************************/
 
 void SemaphoreTake( SemaphoreHandle_t * semaphore,uint32_t TicksToWait )
@@ -84,7 +84,7 @@ void SemaphoreTake( SemaphoreHandle_t * semaphore,uint32_t TicksToWait )
 *
 * [Arguments]:	   handle of the semaphore
 *
-* [Retuen]:		   	 void
+* [Return]:		   	 void
 ***********************************************************************************/
 
 void SemaphoreGive( SemaphoreHandle_t * semaphore )

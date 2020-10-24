@@ -32,7 +32,7 @@ int32_t TCB_STACK[NUM_OF_THREADS][STACKSIZE];
 *
 * [Arguments]:	   Index of the thread
 *
-* [Retuen]:		   void
+* [Return]:		   void
 ***********************************************************************************/
 
 void OS_KernelStackInit(uint32_t i)
@@ -50,7 +50,7 @@ void OS_KernelStackInit(uint32_t i)
 *
 * [Arguments]:	   void
 *
-* [Retuen]:		   void
+* [Return]:		   void
 ***********************************************************************************/
 
 void OS_KernelInit(void)
@@ -67,7 +67,7 @@ void OS_KernelInit(void)
 *
 * [Arguments]:	   quanta in milliseconds
 *
-* [Retuen]:		   void
+* [Return]:		   void
 ***********************************************************************************/
 
 void OS_KernelLaunch(void)
@@ -99,7 +99,7 @@ void OS_KernelLaunch(void)
 *
 * [Arguments]:	   quanta in milliseconds
 *
-* [Retuen]:		   void
+* [Return]:		   void
 ***********************************************************************************/
 
 void checkPiriority(void)
@@ -131,7 +131,7 @@ void checkPiriority(void)
 *
 * [Arguments]:	   Task address , Task piriority , Task handle
 *
-* [Retuen]:		     void
+* [Return]:		     void
 ***********************************************************************************/
 
 void TaskCreate(void(*task)(void),uint8_t piriority , TaskHandle_t*handle)
@@ -161,7 +161,7 @@ void TaskCreate(void(*task)(void),uint8_t piriority , TaskHandle_t*handle)
 *
 * [Arguments]:	   void
 *
-* [Retuen]:		     void
+* [Return]:		     void
 ***********************************************************************************/
 
 void getMaxPiriorityTask (void)
@@ -188,14 +188,14 @@ void getMaxPiriorityTask (void)
 *
 * [Arguments]:	   task handle 
 *
-* [Retuen]:		     void
+* [Return]:		     void
 ***********************************************************************************/
 
 void TaskBlock(TaskHandle_t handle)
 {
 	
 	tcbType*taskHandler=(tcbType*)handle;
-	/*swicthing the task state to the blocked state*/
+	/*switching the task state to the blocked state*/
 	taskHandler->status =BLOCKED;	
 	/*ask for context switch*/												
 	taskYield();																	
@@ -208,13 +208,13 @@ void TaskBlock(TaskHandle_t handle)
 *
 * [Arguments]:	   task handle 
 *
-* [Retuen]:		     void
+* [Return]:		     void
 ***********************************************************************************/
 
 void TaskResume(TaskHandle_t handle)
 {
 	tcbType*taskHandler=(tcbType*)handle;
-	/*swicthing the task state to the ready state*/
+	/*switching the task state to the ready state*/
 	taskHandler->status =READY;		
 	/*ask for context switch*/											   
 	taskYield();																   
@@ -227,7 +227,7 @@ void TaskResume(TaskHandle_t handle)
 *
 * [Arguments]:	   task handle , delay time in quanta
 *
-* [Retuen]:		     void
+* [Return]:		     void
 ***********************************************************************************/
 
 void TaskDelay(uint32_t ticks,TaskHandle_t handle)
@@ -252,7 +252,7 @@ void TaskDelay(uint32_t ticks,TaskHandle_t handle)
 *
 * [Arguments]:	   void
 *
-* [Retuen]:		     void
+* [Return]:		     void
 ***********************************************************************************/
 
 void checkDelayedTasks(void)
@@ -278,7 +278,7 @@ void checkDelayedTasks(void)
 *
 * [Arguments]:	   void
 *
-* [Retuen]:		     void
+* [Return]:		     void
 ***********************************************************************************/
 
  void taskYield(void)

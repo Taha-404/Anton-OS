@@ -20,7 +20,7 @@
 *
 * [Arguments]:	   handle of the queue
 *
-* [Retuen]:		   	 void
+* [Return]:		   	 void
 ***********************************************************************************/
 
 
@@ -37,7 +37,7 @@ void QueueCreate(QueueType_t*handle)
 *
 * [Arguments]:	   handle of the queue , address to store the data, blocking time of the task   
 *
-* [Retuen]:		   	 void
+* [Return]:		   	 void
 ***********************************************************************************/
 
 void QueueReceive(QueueType_t*handle,uint32_t*data,uint32_t TicksToWait)
@@ -63,7 +63,7 @@ void QueueReceive(QueueType_t*handle,uint32_t*data,uint32_t TicksToWait)
 *
 * [Arguments]:	   handle of the queue , address of the data, blocking time of the task   
 *
-* [Retuen]:		   	 void
+* [Return]:		   	 void
 ***********************************************************************************/
 
 void QueueSend (QueueType_t*handle,uint32_t*data,uint32_t TicksToWait)
