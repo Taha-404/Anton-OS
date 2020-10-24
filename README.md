@@ -4,4 +4,4 @@ Anton-OS supoorts the following features:<br />
 * Preemptive Weighted Round-Robin Scheduler
 * Semaphores (Binary and counted)
 * Queues for Inter-Thread Communication
-<
+
