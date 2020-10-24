@@ -25,7 +25,6 @@ extern tcbType *currentPtr;
  *                      Functions Prototypes                                   *
  *******************************************************************************/
 
-extern void TaskDelay(uint32_t ticks,TaskHandle_t handle);
 void SemaphoreCreateBinary( SemaphoreHandle_t * semaphore );
 void SemaphoreCreateCounting( SemaphoreHandle_t * semaphore , uint32_t MaxCount);
 void SemaphoreTake( SemaphoreHandle_t * semaphore,uint32_t TicksToWait );

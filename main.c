@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 #include "AntonOS_Kernel.h"
 #include"semaphore.h"
 
-#define QUANTA	50
 
 uint32_t count0,count1,count2;
 TaskHandle_t handle0;
@@ -59,9 +58,3 @@ int main(void)
 	OS_KernelLaunch(QUANTA);
 }
 
-
-=======
-int main()
-{
-}
->>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
