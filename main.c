@@ -1,5 +1,7 @@
+
 #include "AntonOS_Kernel.h"
 #include"semaphore.h"
+
 
 
 
@@ -55,7 +57,7 @@ int main(void)
 	TaskCreate(Task0,3,&handle0);
 	TaskCreate(Task1,2,&handle1);
 	TaskCreate(Task2,1,&handle2);
-	OS_KernelLaunch();
+	OS_KernelLaunch(QUANTA);
 }
 
 

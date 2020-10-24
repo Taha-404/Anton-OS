@@ -70,6 +70,7 @@ void OS_KernelInit(void)
 * [Retuen]:		   void
 ***********************************************************************************/
 
+
 void OS_KernelLaunch(void)
 {
 	/*initialize the millsPrescaler*/

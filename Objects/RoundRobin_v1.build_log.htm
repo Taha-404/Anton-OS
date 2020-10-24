@@ -28,7 +28,164 @@ Project File Date:  10/24/2020
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'TM4C123'
 Note: source file '.\AntonOS_Kernel.s' - object file renamed from '.\Objects\AntonOS_Kernel.o' to '.\Objects\antonos_kernel_1.o'.
-".\Objects\RoundRobin_v1.axf" - 0 Error(s), 0 Warning(s).
+compiling queue.c...
+AntonOS_KernelConfig.h(21): error:  #169: expected a declaration
+  <<<<<<< HEAD
+C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1230H6PM.h(135): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1684): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_EnableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1703): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetEnableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1722): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_DisableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1741): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1760): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1775): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1792): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetActive(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1814): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1836): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPriority(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1911): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetVector(IRQn_Type IRQn, uint32_t vector)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1927): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetVector(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(2030): error:  #20: identifier "SysTick_IRQn" is undefined
+    NVIC_SetPriority (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Interrupt */
+AntonOs_Kernel.h(49): error:  #169: expected a declaration
+  <<<<<<< HEAD
+AntonOs_Kernel.h(51): error:  #169: expected a declaration
+  =======
+AntonOs_Kernel.h(53): error:  #169: expected a declaration
+  >>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
+queue.h(42): warning:  #1-D: last line of file ends without a newline
+  void QueueSend (QueueType_t*handle,uint32_t*data,uint32_t TicksToWait);
+queue.c(83): warning:  #1-D: last line of file ends without a newline
+  }
+queue.c: 3 warnings, 16 errors
+compiling semaphore.c...
+AntonOS_KernelConfig.h(21): error:  #169: expected a declaration
+  <<<<<<< HEAD
+C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1230H6PM.h(135): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1684): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_EnableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1703): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetEnableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1722): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_DisableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1741): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1760): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1775): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1792): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetActive(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1814): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1836): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPriority(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1911): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetVector(IRQn_Type IRQn, uint32_t vector)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1927): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetVector(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(2030): error:  #20: identifier "SysTick_IRQn" is undefined
+    NVIC_SetPriority (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Interrupt */
+AntonOs_Kernel.h(49): error:  #169: expected a declaration
+  <<<<<<< HEAD
+AntonOs_Kernel.h(51): error:  #169: expected a declaration
+  =======
+AntonOs_Kernel.h(53): error:  #169: expected a declaration
+  >>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
+semaphore.c: 1 warning, 16 errors
+compiling AntonOS_Kernel.c...
+AntonOS_KernelConfig.h(21): error:  #169: expected a declaration
+  <<<<<<< HEAD
+C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1230H6PM.h(135): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1684): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_EnableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1703): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetEnableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1722): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_DisableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1741): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1760): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1775): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1792): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetActive(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1814): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1836): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPriority(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1911): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetVector(IRQn_Type IRQn, uint32_t vector)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1927): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetVector(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(2030): error:  #20: identifier "SysTick_IRQn" is undefined
+    NVIC_SetPriority (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Interrupt */
+AntonOS_Kernel.h(49): error:  #169: expected a declaration
+  <<<<<<< HEAD
+AntonOS_Kernel.h(51): error:  #169: expected a declaration
+  =======
+AntonOS_Kernel.h(53): error:  #169: expected a declaration
+  >>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
+AntonOS_Kernel.c(73): error:  #169: expected a declaration
+  <<<<<<< HEAD
+AntonOS_Kernel.c(100): warning:  #12-D: parsing restarts here after previous syntax error
+  	OS_SchedulerLaunch();														
+AntonOS_Kernel.c(101): error:  #169: expected a declaration
+  }
+AntonOS_Kernel.c(304): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+AntonOS_Kernel.c: 3 warnings, 18 errors
+compiling main.c...
+AntonOS_KernelConfig.h(21): error:  #169: expected a declaration
+  <<<<<<< HEAD
+C:\Users\PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1230H6PM.h(135): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1684): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_EnableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1703): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetEnableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1722): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_DisableIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1741): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1760): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1775): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1792): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetActive(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1814): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1836): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPriority(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1911): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetVector(IRQn_Type IRQn, uint32_t vector)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(1927): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetVector(IRQn_Type IRQn)
+C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h(2030): error:  #20: identifier "SysTick_IRQn" is undefined
+    NVIC_SetPriority (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Interrupt */
+AntonOS_Kernel.h(49): error:  #169: expected a declaration
+  <<<<<<< HEAD
+AntonOS_Kernel.h(51): error:  #169: expected a declaration
+  =======
+AntonOS_Kernel.h(53): error:  #169: expected a declaration
+  >>>>>>> 0711a2e910b18ac135f1315ac3370babdf9003dc
+main.c(60): warning:  #223-D: function "OS_KernelLaunch" declared implicitly
+  	OS_KernelLaunch(QUANTA);
+main.c: 2 warnings, 16 errors
+".\Objects\RoundRobin_v1.axf" - 66 Error(s), 9 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -54,9 +211,10 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.4.0
 
    * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device\Source\system_TM4C123.c
       Include file:  Device\Include\TM4C123\TM4C123.h
       Source file:   Device\Source\ARM\startup_TM4C123.s
-      Source file:   Device\Source\system_TM4C123.c
+Target not created.
 Build Time Elapsed:  00:00:00
 </pre>
 </body>
