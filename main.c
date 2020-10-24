@@ -2,9 +2,6 @@
 #include "AntonOS_Kernel.h"
 #include"semaphore.h"
 
-
-
-
 uint32_t count0,count1,count2;
 TaskHandle_t handle0;
 TaskHandle_t handle1;
@@ -59,5 +56,4 @@ int main(void)
 	TaskCreate(Task2,1,&handle2);
 	OS_KernelLaunch(QUANTA);
 }
-
 

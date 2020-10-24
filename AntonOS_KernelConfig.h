@@ -1,6 +1,6 @@
 /******************************************************************************
  *
- * File Name: OS_KernelConfig.h
+ * File Name: AntonOS_KernelConfig.h
  *
  * Description: Header file for the kernel configurations
  *
@@ -19,5 +19,4 @@
 #define STACKSIZE       100      
 #define F_CPU 				  16000000
 #define QUANTA					50
-
 #endif

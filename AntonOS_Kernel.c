@@ -1,6 +1,6 @@
 /******************************************************************************
  *
- * File Name: OsKernel.c
+ * File Name: AntonOSKernel.c
  *
  * Description: Source file for the kernel API functions
  *
@@ -70,7 +70,6 @@ void OS_KernelInit(void)
 * [Retuen]:		   void
 ***********************************************************************************/
 
-
 void OS_KernelLaunch(void)
 {
 	/*initialize the millsPrescaler*/
@@ -82,8 +81,8 @@ void OS_KernelLaunch(void)
 	/*disable the systick timer*/									
 	SysTick->CTRL =0;			
 	/*putting zero in the value register of the systick timer*/											    
-	SysTick->VAL=0;			
-	/*putting quanta in the load register of the systick timer*/													
+	SysTick->VAL=0;															
+	/*putting quanta in the load register of the systick timer*/														
 	SysTick->LOAD = (QUANTA* millsPrescaler)-1;			
 	/*making the piriority of the systick timer interrupt the lowest piriority possible*/						
   	SYSPRI3 =(SYSPRI3&0x00FFFFFF)|0xE0000000;		
